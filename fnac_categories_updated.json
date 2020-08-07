@@ -1,0 +1,284 @@
+{
+	"Categories": [
+		{
+			"Id":"1",
+			"Name": "Livres",
+			"IconName": "book",
+			"Principal": true,
+			"Type": "complex",
+			"Activated": true,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":true,
+				"HasMultiple":true,
+				"Title": "Nos Sélections Auteurs",
+				"Selector": "Type",
+				"Value": 10001,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"31514",
+			"Name": "Jeux Vidéo",
+			"IconName": "gamepad",
+			"Principal": true,
+			"Type": "complex",
+			"Activated": true,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":true,
+				"HasMultiple":false,
+				"Title": "Réalité Virtuelle",
+				"Selector": "NodeName",
+				"Value": "Réalité virtuelle",
+			},
+			"MoreActu":{
+				"IsPresent":true,
+				"Condition":"data[i].IsDistinguished && !data[i].IsBestOf && !data[i].IsSmallPrice",
+			},
+		},
+		{
+			"Id":"48966",
+			"Name": "Informatique, Tablettes",
+			"IconName": "laptop",
+			"Principal": true,
+			"Type": "other",
+			"Activated": true,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"56528",
+			"Name": "Smartphones et Objets Connectés",
+			"IconName": "mobile",
+			"Principal": true,
+			"Type": "other",
+			"Activated": true,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"176062",
+			"Name": "Son, Casques, Enceintes",
+			"IconName": "headphones",
+			"Principal": false,
+			"Type": "simple",
+			"Activated": true,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"56352",
+			"Name": "Photo, Caméras",
+			"IconName": "camera",
+			"Principal": false,
+			"Type": "simple",
+			"Activated": true,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"56328",
+			"Name": "TV, Vidéo, Home Cinéma",
+			"IconName": "tv",
+			"Principal": false,
+			"Type": "simple",
+			"Activated": true,
+			"Ignore": ["Nos meilleures offres",],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"2",
+			"Name": "Musique",
+			"IconName": "music",
+			"Principal": false,
+			"Type": "complex",
+			"Activated": true,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":true,
+				"Condition":"data[i].IsDistinguished && !data[i].IsSmallPrice",
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"3",
+			"Name": "DVD et Vidéo",
+			"IconName": "film",
+			"Principal": false,
+			"Type": "complex",
+			"Activated": true,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":true,
+				"HasMultiple":false,
+				"Title": "Coffrets DVD/Blu-ray",
+				"Selector": "NodeName",
+				"Value": "Coffrets DVD/Blu-ray",
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"181432",
+			"Name": "Maison, Électroménager",
+			"IconName": "home",
+			"Principal": false,
+			"Type": "other",
+			"Activated": true,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"115797",
+			"Name": "Enfants, Jouets",
+			"IconName": "child",
+			"Principal": false,
+			"Type": "complex",
+			"Activated": true,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": false,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"31515",
+			"Name": "Logiciels",
+			"IconName": "file-archive",
+			"Principal": false,
+			"Type": "simple",
+			"Activated": false,
+			"Ignore": ["Windows 10", "Office 365",],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"292171",
+			"Name": "Puériculture, Bébés",
+			"IconName": "times",
+			"Principal": false,
+			"Type": "simple",
+			"Activated": false,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+		{
+			"Id":"31517",
+			"Name": "Téléphonie, MP3, GPS",
+			"IconName": "times",
+			"Principal": false,
+			"Type": "other",
+			"Activated": false,
+			"Ignore": [],
+			"HasFnacSelectionAndAdvice": true,
+			"MoreFnacSelectionAndAdvice":{
+				"IsPresent":false,
+			},
+			"CustomCategorie":{
+				"IsPresent":false,
+			},
+			"MoreActu":{
+				"IsPresent":false,
+			},
+		},
+	]
+}

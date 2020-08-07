@@ -1,0 +1,97 @@
+import React from 'react';
+import {
+  StyleSheet,
+} from 'react-native';
+import CommonStyleSheet from './CommonStyles';
+
+export default StyleSheet.create({
+  ScrollView:{
+    backgroundColor:"#e7e7e7",
+  },
+  fnacContainer:{
+    backgroundColor:CommonStyleSheet.fnac.color,
+    padding:20,
+    flexDirection:'column',
+    justifyContent:'flex-end',
+  },
+  premiereCoText:{
+    color:"white",
+    fontSize:32,
+  },
+  configurezText:{
+    color:"white",
+    fontSize:16,
+    marginTop:5,
+  },
+  mainContainer:{
+    margin:4,
+    backgroundColor:"white",
+    padding:16,
+  },
+  textAndTextInputViews:{
+    height:45,
+    marginTop:0,
+    marginBottom:0,
+    //backgroundColor:'pink',
+    flexDirection:'column',
+    justifyContent:'flex-start',
+  },
+  textInputTitlesView:{
+    //backgroundColor:'green',
+    height:12,
+    marginBottom:-10
+  },
+  textInputTitlesText:{
+    fontSize:10,
+    color:'#aaaaaa',
+    //backgroundColor:'pink',
+  },
+  textInputTitlesText2:{
+    fontSize:13,
+    color:'#000000',
+  },
+  inputLabel:{
+    fontSize:16,
+    marginBottom:6,
+    color:'grey',
+    fontWeight:'bold',
+  },
+  textInputView:{
+    //backgroundColor:'blue',
+    height:30,
+    overflow:'hidden'
+  },
+  textInput:{
+    height: 40,
+    padding: 10,
+  },
+  errorInput:{
+    color:'red'
+  },
+  genderView:{
+    height:50,
+    flexDirection:'row',
+    justifyContent:'flex-start',
+  },
+  womanCheckBox:{
+    width:100,
+    height:100,
+  },
+  manCheckBox:{
+    width:100,
+    height:100,
+  },
+  magasinPreferrePicker:{
+    flex:1,
+  },
+  fideliteNumeroPicker:{
+    flex:1,
+  },
+  datePicker:{
+    width:200,
+  },
+  quatreChiffresText:{
+    fontSize:10,
+    color:'grey',
+  },
+});

@@ -1,0 +1,16 @@
+{"mainCategories":[
+	{"id":1, "name":"Livres"},
+	{"id":2, "name":"Musique"},
+	{"id":3, "name":"DVD et Blu-ray"},
+	{"id":31514, "name":"Jeux vidéo"},
+	{"id":31515, "name":"Logiciels"},
+	{"id":31517, "name":"Téléphonie, MP3, GPS"},
+	{"id":48966, "name":"Informatique"},
+	{"id":56328, "name":"TV, Vidéo, Home cinema"},
+	{"id":56352, "name":"Photo, caméscope"},
+	{"id":56528, "name":"Smartphones et Objets Connectés"},
+	{"id":115797, "name":"Jeux et Jouets"},
+	{"id":176062, "name":"Son, hifi, lecteur MP3"},
+	{"id":181432, "name":"Maison, Electroménager"},
+	{"id":292171, "name":"Puériculture, Bébés"},
+]}

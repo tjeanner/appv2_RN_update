@@ -1,0 +1,11 @@
+{
+	"card":{
+		"id": "0000045508702556",
+		"firstName":"Didier",
+		"lastName":"Martin",
+		"validityDate": "01.04.2019",
+		"nbPoints": 36,
+		"availableMoney": 666,
+		"gender": "male",
+	}
+}
